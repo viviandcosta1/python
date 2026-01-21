@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml version="2.0">
+    <!-- Animal Knowledge Base -->
+    
+    <!-- Lion patterns -->
+    <category>
+        <pattern>TELL ME ABOUT LIONS</pattern>
+        <template>
+            Lions are large carnivorous cats found in Africa and India. They live in groups called prides and are known as the "King of the Jungle". Male lions have distinctive manes.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHAT DO LIONS EAT</pattern>
+        <template>
+            Lions are carnivores. They hunt zebras, antelopes, and wildebeest. A lion can eat up to 70 pounds of meat in a single meal!
+        </template>
+    </category>
+
+    <!-- Elephant patterns -->
+    <category>
+        <pattern>TELL ME ABOUT ELEPHANTS</pattern>
+        <template>
+            Elephants are the largest land animals. They are highly intelligent and social creatures. Elephants live in family groups led by the oldest female, called the matriarch.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW LONG DO ELEPHANTS LIVE</pattern>
+        <template>
+            Elephants can live 60-70 years in the wild, and even longer in captivity. They are one of the longest-living land mammals.
+        </template>
+    </category>
+
+    <!-- Dolphin patterns -->
+    <category>
+        <pattern>TELL ME ABOUT DOLPHINS</pattern>
+        <template>
+            Dolphins are highly intelligent marine mammals. They are known for their playful behavior and complex communication. Dolphins use echolocation to navigate and hunt.
+        </template>
+    </category>
+
+    <category>
+        <pattern>ARE DOLPHINS SMART</pattern>
+        <template>
+            Yes! Dolphins are among the most intelligent animals on Earth. They can recognize themselves in mirrors, solve problems, and communicate with each other using clicks and whistles.
+        </template>
+    </category>
+
+    <!-- Eagle patterns -->
+    <category>
+        <pattern>TELL ME ABOUT EAGLES</pattern>
+        <template>
+            Eagles are large birds of prey known for their powerful talons and keen eyesight. They can see prey from miles away. Eagles build huge nests called eyries on tall cliffs or trees.
+        </template>
+    </category>
+
+    <category>
+        <pattern>HOW FAST CAN EAGLES FLY</pattern>
+        <template>
+            Eagles can fly at speeds of 30-50 mph during normal flight. However, when diving to catch prey, they can reach speeds of over 150 mph!
+        </template>
+    </category>
+
+    <!-- Penguin patterns -->
+    <category>
+        <pattern>TELL ME ABOUT PENGUINS</pattern>
+        <template>
+            Penguins are flightless birds that live in the Southern Hemisphere, mostly in Antarctica. They are excellent swimmers and can dive to great depths to catch fish.
+        </template>
+    </category>
+
+    <category>
+        <pattern>WHERE DO PENGUINS LIVE</pattern>
+        <template>
+            Most penguins live in Antarctica and surrounding cold ocean regions. Some species live in temperate regions like Australia and South Africa. Penguins are only found in the Southern Hemisphere.
+        </template>
+    </category>
+
+    <!-- General patterns -->
+    <category>
+        <pattern>WHAT ANIMALS CAN YOU TELL ME ABOUT</pattern>
+        <template>
+            I can tell you about:
+            - Lions
+            - Elephants
+            - Dolphins
+            - Eagles
+            - Penguins
+            
+            Try asking "TELL ME ABOUT [ANIMAL]" or specific questions like "WHAT DO LIONS EAT" or "HOW FAST CAN EAGLES FLY"?
+        </template>
+    </category>
+
+    <category>
+        <pattern>HELP</pattern>
+        <template>
+            Welcome to the Animal Knowledge Base! You can ask me about various animals. Try:
+            - "What animals can you tell me about?"
+            - "Tell me about lions"
+            - "What do lions eat?"
+            - "How smart are dolphins?"
+            - "Where do penguins live?"
+        </template>
+    </category>
+
+    <!-- Fallback -->
+    <category>
+        <pattern>*</pattern>
+        <template>
+            I'm an Animal Knowledge Base. I can tell you facts about lions, elephants, dolphins, eagles, and penguins. Try "HELP" for more options!
+        </template>
+    </category>
+</aiml>
